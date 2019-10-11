@@ -58,7 +58,7 @@ class Owner
   
   def sell_pets 
     all_pets = cats + dogs 
-    binding.pry
+    all_pets.collect{|pet| pet.mood = "nervous"}
   end
 
 end
