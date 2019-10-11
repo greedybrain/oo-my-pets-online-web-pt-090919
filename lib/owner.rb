@@ -55,6 +55,11 @@ class Owner
   def feed_cats 
     cats.collect{|cat| cat.mood = "happy"}
   end
+  
+  def sell_pets 
+    all_pets = cats += dogs 
+    binding.pry
+  end
 
 end
 
