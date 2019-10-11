@@ -57,7 +57,7 @@ class Owner
   end
   
   def sell_pets 
-    all_pets = cats += dogs 
+    all_pets = cats + dogs 
     binding.pry
   end
 
